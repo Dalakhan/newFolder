@@ -1,0 +1,177 @@
+@font-face {
+	font-family: OpenSans;
+	src: url(OpenSans-VariableFont_wdth,wght.ttf);
+}
+.body {
+	margin: 0px;
+	background-attachment: fixed;
+	background-image: url(back.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.cap {
+	height: 100px;
+	background-color: rgba(0,0,0,.7);
+	display: flex;
+}
+.container {
+	margin-top: 100px;
+	padding: 8px;
+	height: 2800px;
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgba(0,0,0,.7);
+	border-radius: 50px;
+}
+.box {
+	width: 1000px;
+	height: 900px;
+	
+	display: flex;
+}
+.gap {
+	margin-top: 20px;
+	width: 1000px;
+	height: 40px;
+	
+}
+.info {
+	margin-top: 20px;
+	width: 1000px;
+	height: 800px;
+	
+}
+.info-1 {
+	margin-top: 20px;
+	width: 1000px;
+	height: 800px;
+	
+}
+.box-info {
+	width: 600px;
+	height: 900px;
+	
+}
+.box-info1 {
+	margin-left: 30px;
+	width: 370px;
+	height: 900px;
+	background-color: rgba(10, 10, 10, 0.7);
+	border-radius: 80px;
+}
+.map {
+	border-radius: 5%;
+	width: 800px;
+	margin-left: 100px;
+	margin-right: 120px;
+	margin-top: 20px;
+}
+.cap-button {
+	margin-left: auto;
+	width: 70px;
+	height: 70px;
+	background-color: black;
+	transition: transform 0.5s;
+	transform: rotate(-90deg);
+	padding-top: 15px;
+}
+.cap-button:hover {
+	transform: rotate(00deg);
+	background-color: black;
+}
+.cap-img {
+	margin-right: auto;
+	margin-left: 450px;
+	width: 500px;
+	height: 70px;
+	
+}
+.text {
+	color: white;
+	font-family: OpenSans;
+	width: 550px;
+	height: 300px;
+	
+	margin-top: 70px;
+}
+.text-1 {
+	width: 600px;
+	height: 510px;
+	
+	margin-top: 20px;
+}
+.info1-img {
+	width: 370px;
+	height: 420px;
+	background-color: rgba(8, 8, 8, 0.7);
+	border-radius: 10%;
+}
+.info1-info {
+	width: 370px;
+	height: 400px;
+	margin-top: 35px;
+	
+}
+.gap-img {
+	width:700px;
+    margin-left: 150px;
+    margin-right: 150px ;
+}
+.img-container {
+	display: flex;
+}
+.img-moment {
+	width: 450px;
+	margin-left: 35px;
+	margin-top: 40px;
+	transition: border 0.5s;
+}
+.img-moment:hover {
+	width: 450px;
+	margin-left: 35px;
+	margin-top: 40px;
+	border: 2px solid white;
+}
+.text-box {
+	font-size: 20px;
+	color: white;
+	font-family: OpenSans;
+	display: flex;
+	padding-left: 15px;
+}
+
+.text-description-left {
+	font-weight: bold;
+	text-align: left;
+	padding-left: 10px;
+}
+.text-description {
+
+	padding-left: 20px;
+}
+.text-container-info1 {
+	padding-top: 15px;
+	text-align: center;
+	font-weight: bold;
+	color: white;
+	font-family: OpenSans;
+	font-size: 25px;
+	transition: font-size 0.5s linear;
+}
+
+.text-container-info12 {
+	padding-top: 15px;
+	text-align: center;
+	font-weight: bold;
+	color: white;
+	font-family: OpenSans;
+	font-size: 25px;
+	transition: font-size 0.5s linear;
+}
+.text-container-info12:hover {
+	font-size: 28px;
+	font-family: OpenSans;
+}
+
